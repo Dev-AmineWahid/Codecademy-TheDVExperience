@@ -1,0 +1,134 @@
+html{
+    font-family: sans-serif;
+}
+/* main {
+    width: 100%;} */
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 24px;
+    line-height: 1,2;
+    letter-spacing: 0.3rem;
+    margin-top: 0;
+    /* background-color: aquamarine; */
+
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 22px;
+    line-height: 1,2;
+    letter-spacing: 0.2rem;
+    list-style: none;
+    margin-inline: 50px;
+}
+
+.navbar a {
+    color: black;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 350px;
+    /* background-color: aquamarine; */
+    background-image: url(./css/skyscrapers.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    margin-top: 50px;
+}
+
+.text1 {
+    background-color: #fff;
+    margin-top: 100px;
+    padding: 5px;
+}
+
+.container-text {
+    width: 100%;
+    
+}
+.container-text h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 34px;
+    letter-spacing: 0.2rem;
+}
+
+.container-text h4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    letter-spacing: 0.2rem;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+   margin: 20px;
+}
+
+.card1 {
+    margin: 20px;
+ }
+
+.card img{
+    
+    width: 200px;
+    height: 200px;
+    margin-right: 20px;
+}
+
+.card1 img{
+    
+    width: 200px;
+    height: 300px;
+    margin-right: 20px;
+}
+
+.card h4{
+    display: flex;
+    width: 200px;
+    height: auto;
+    margin-right: 20px;
+    justify-content: center;
+}
+
+.card1 h4{
+    display: flex;
+    width: 200px;
+    height: auto;
+    margin-right: 28px;
+    justify-content: center;
+    color: white;
+}
+
+/* .card1 h5{
+    display: flex;
+    width: 150px;
+    height: auto;
+    margin-right: 22px;
+    justify-content: center;
+    color: white;
+} */
+
+.container1 {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 550px;
+    /* background-color: aquamarine; */
+    background-image: url(./css/blurred-road.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    margin-top: 50px;
+}
